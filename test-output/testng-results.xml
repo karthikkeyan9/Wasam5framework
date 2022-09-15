@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-----data base connection]]>
+    </line>
+    <line>
+      <![CDATA[browserchromelaunched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[----login sucessfully----]]>
+    </line>
+    <line>
+      <![CDATA[clicked on orgination link]]>
+    </line>
+    <line>
+      <![CDATA[clciked on create new org lookup image]]>
+    </line>
+    <line>
+      <![CDATA[clicked on contact link]]>
+    </line>
+    <line>
+      <![CDATA[clicked on new contact img]]>
+    </line>
+    <line>
+      <![CDATA[Signout sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[driver closed]]>
+    </line>
+    <line>
+      <![CDATA[db closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-10T10:54:50 IST" name="Default suite" finished-at="2022-09-10T10:57:14 IST" duration-ms="144310">
+    <groups>
+      <group name="regression testing">
+        <method signature="CreateContacWithORgnamePOMTest.CreateContacWithORgnamePO()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" name="CreateContacWithORgnamePO" class="vtigwe.contactsTessts.CreateContacWithORgnamePOMTest"/>
+      </group> <!-- regression testing -->
+      <group name="smoketesting">
+        <method signature="CreateContacWithORgnamePOMTest.CreateContacWithORgnamePO()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" name="CreateContacWithORgnamePO" class="vtigwe.contactsTessts.CreateContacWithORgnamePOMTest"/>
+      </group> <!-- smoketesting -->
+    </groups>
+    <test started-at="2022-09-10T10:54:50 IST" name="Default test" finished-at="2022-09-10T10:57:14 IST" duration-ms="144310">
+      <class name="vtigwe.contactsTessts.CreateContacWithORgnamePOMTest">
+        <test-method is-config="true" signature="bdconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:54:50 IST" name="bdconfig" finished-at="2022-09-10T10:54:50 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-----data base connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bdconfig -->
+        <test-method is-config="true" signature="bsconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:54:53 IST" name="bsconfig" finished-at="2022-09-10T10:55:33 IST" duration-ms="39996" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browserchromelaunched sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsconfig -->
+        <test-method is-config="true" signature="bmconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:55:33 IST" name="bmconfig" finished-at="2022-09-10T10:56:02 IST" duration-ms="29838" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----login sucessfully----]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bmconfig -->
+        <test-method signature="CreateContacWithORgnamePO()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:56:02 IST" name="CreateContacWithORgnamePO" finished-at="2022-09-10T10:57:11 IST" duration-ms="68361" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicked on orgination link]]>
+            </line>
+            <line>
+              <![CDATA[clciked on create new org lookup image]]>
+            </line>
+            <line>
+              <![CDATA[clicked on contact link]]>
+            </line>
+            <line>
+              <![CDATA[clicked on new contact img]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateContacWithORgnamePO -->
+        <test-method is-config="true" signature="amconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:57:11 IST" name="amconfig" finished-at="2022-09-10T10:57:14 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Signout sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amconfig -->
+        <test-method is-config="true" signature="acconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:57:14 IST" name="acconfig" finished-at="2022-09-10T10:57:14 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- acconfig -->
+        <test-method is-config="true" signature="asconfig()[pri:0, instance:vtigwe.contactsTessts.CreateContacWithORgnamePOMTest@3e11f9e9]" started-at="2022-09-10T10:57:15 IST" name="asconfig" finished-at="2022-09-10T10:57:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[db closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asconfig -->
+      </class> <!-- vtigwe.contactsTessts.CreateContacWithORgnamePOMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
